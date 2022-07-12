@@ -35,8 +35,8 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\Asus\\OneDrive\\Docume
 	     WebElement doubleClickButton = driver.findElement(By.xpath("//button[text()='Double-Click Me To See Alert']"));
 	     act.doubleClick(doubleClickButton).perform();
 	
-	
-	
+	System.out.println(" xpath of right click button change in action class");
+	// new xpath add
 	
 
 	}
